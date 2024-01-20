@@ -1,6 +1,7 @@
 import React from 'react'
 import InvoicePage from './components/InvoicePage'
 import { Invoice } from './data/types'
+import "./App.css";
 
 function App() {
   const savedInvoice = window.localStorage.getItem('invoiceData')
